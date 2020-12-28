@@ -1,0 +1,10 @@
+<p>shop works!</p>
+<div class="box" >
+  <p *ngFor="let number of numbers" [routerLink]="['./box2',number]">{{number}}</p>
+</div>
+
+<div class="box" >
+  <p *ngFor="let number of numbers" (click)="snap(number)">{{number}}</p>
+</div>
+
+<router-outlet></router-outlet>

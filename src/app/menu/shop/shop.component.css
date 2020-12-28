@@ -1,0 +1,8 @@
+.box{
+  width: 20%;
+  height: 20vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
